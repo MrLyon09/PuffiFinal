@@ -1,6 +1,5 @@
 import React from 'react'
 import {Carousel} from 'react-bootstrap'
-
 import Navbar from '../navbar/Navbar';
 
 function Slider() {
@@ -9,7 +8,7 @@ function Slider() {
         <Navbar />
         <Carousel>
 
-            <Carousel.Item interval={2000}>
+            <Carousel.Item interval={1000}>
             
                 <img
                 className="d-block w-100"
@@ -27,7 +26,7 @@ function Slider() {
                 
             </Carousel.Item>
 
-            <Carousel.Item interval={2000}>
+            <Carousel.Item interval={1000}>
             
                 <img
                 className="d-block w-100"
@@ -46,7 +45,7 @@ function Slider() {
             </Carousel.Item>
 
 
-            <Carousel.Item interval={2000}>
+            <Carousel.Item interval={1000}>
             
                 <img
                 className="d-block w-100"

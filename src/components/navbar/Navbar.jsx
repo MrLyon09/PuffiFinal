@@ -3,10 +3,9 @@ import {
     AiFillBulb,
     AiFillWechat,
     AiOutlineBug
-    
   } from "react-icons/ai";
-  
   import "./Navbar.css";
+  
   
   function Navbar() {
     return (
