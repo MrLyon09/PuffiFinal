@@ -1,0 +1,56 @@
+.container-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 1px solid rgb(179, 174, 168);
+    align-items: flex-start;
+    align-content: center;
+    width: 100%;
+    margin: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.container-main>div {
+    flex-grow: 0.2;
+    width: 20%;
+}
+
+.footerlogo>span {
+    display: flex;
+    font-size: 60px;
+    font-weight: bold;
+    
+}
+
+.container-main>div>img {
+    width: 30%;
+}
+
+.container-main ul {
+    list-style-type: none;
+    line-height: 20px;
+}
+
+.secure-shop>span {
+    font-size: 7px;
+}
+
+.container-copy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid rgb(179, 174, 168);
+    align-items: center;
+}
+
+.brandlive {
+    width: 10%;
+}
+
+.copyright {
+    font-size: 20px;
+    color: rgb(179, 174, 168);
+    margin-top: 5px;
+    margin-left: 20px;
+}

@@ -1,0 +1,61 @@
+
+.one {
+    background-image: url('../../assets/img/one.webp');
+    background-size: cover;
+    padding: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.two {
+    background-image: url('../../assets/img/two.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.three {
+    background-image: url('../../assets/img/three.webp');
+    padding: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.four {
+    background-image: url('../../assets/img/four.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.five {
+    background-image: url('../../assets/img/five.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.six {
+    background-image: url('../../assets/img/six.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.grid-mosaic {
+    width: 50%;
+    height: 60%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: minmax(300px, auto);
+    gap: 1px;
+    padding: 0px;
+    grid-auto-flow: dense;
+}
+
+@media (min-width: 300px) {
+    .wide {
+        grid-column: span 2;
+    }
+}
